@@ -1,0 +1,16 @@
+<Script>
+    let num = parseInt(prompt("Enter any number"));
+//let num = 12;
+let factors = "";
+
+for (let i = 1; i <= num; i++) {
+  if (num % i == 0) 
+  {
+    factors=factors+i + ", "
+  }
+}
+
+parseInt(console.log(`Factors of ${num} are: ${factors}`));
+
+
+</Script>
